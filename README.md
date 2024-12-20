@@ -8,4 +8,4 @@
 
 ## Built Game:
 
-[Build Jar File](/build)
+[Built JAR File](/build)
