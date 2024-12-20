@@ -1,6 +1,6 @@
 # TCSS 305 Tetris JAR
 
-This repository contains a compiled Java application packaged as a `.jar` file. Below are the instructions on how to run this `.jar` file.
+This path contains a compiled Java application packaged as a `.jar` file. Below are the instructions on how to run this `.jar` file.
 
 ## Prerequisites
 
