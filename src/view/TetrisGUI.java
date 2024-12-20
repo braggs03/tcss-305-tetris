@@ -1,7 +1,6 @@
 package view;
 
-import java.awt.Dimension;
-import java.awt.GridLayout;
+import java.awt.*;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.awt.event.KeyAdapter;
@@ -20,10 +19,8 @@ import javax.sound.sampled.Clip;
 import javax.sound.sampled.FloatControl;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
-import javax.swing.JFrame;
-import javax.swing.JMenuBar;
-import javax.swing.JPanel;
-import javax.swing.Timer;
+import javax.swing.*;
+
 import model.Board;
 import model.BoardInterface;
 
@@ -161,6 +158,7 @@ public final class TetrisGUI implements PropertyChangeListener, PropertyChangeMe
     public static void createAndShowGUI() {
         final TetrisGUI l = new TetrisGUI();
     }
+
     private void buildComponents() {
         //Frame
         myWindow = new JFrame("Tetris - Group 9");
@@ -210,6 +208,7 @@ public final class TetrisGUI implements PropertyChangeListener, PropertyChangeMe
         myWindow.pack();
         myWindow.setVisible(true);
         myWindow.requestFocus();
+        myWindow.setIconImage(new ImageIcon(Objects.requireNonNull(this.getClass().getResource("/assets/images/favicon.png"))).getImage());
     }
 
     private void addListenersAndPropertyChangeListeners() {

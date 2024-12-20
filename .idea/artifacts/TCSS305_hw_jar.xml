@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TCSS305-hw:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TCSS305_hw_jar</output-path>
+    <root id="archive" name="TCSS305-hw.jar">
+      <element id="module-output" name="TCSS305-hw" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/wk.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
